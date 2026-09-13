@@ -1,0 +1,29 @@
+[project]
+name = "sme-stress-predictor"
+version = "0.1.0"
+description = "AI-driven working capital stress predictor for Indian MSMEs"
+readme = "README.md"
+requires-python = ">=3.9"
+dependencies = [
+    "joblib",
+    "numpy",
+    "pandas",
+    "plotly",
+    "shap",
+    "streamlit",
+    "scikit-learn",
+    "xgboost",
+]
+
+[dependency-groups]
+dev = [
+    "pytest",
+    "ruff",
+]
+
+[tool.ruff]
+line-length = 100
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+pythonpath = ["."]

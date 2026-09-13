@@ -428,7 +428,7 @@ def main() -> None:
         "no_overlap_variant": no_overlap,
         "strata": strata,
         "mean_within_stratum_auc": within,
-        "n_rows": int(len(raw)),
+        "n_rows": len(raw),
         "n_features": int(X.shape[1]),
         "stress_rate": float(y.mean()),
         "excluded_for_leakage": C.LABEL_DEFINING_COLS,

@@ -23,7 +23,6 @@ import pandas as pd
 
 from . import config as C
 
-
 # ── sentinel handling ───────────────────────────────────────────────
 
 def _demote_sentinels(df: pd.DataFrame, cols: list[str]) -> pd.DataFrame:

@@ -9,11 +9,11 @@
       "Age_Newest_TL",
       "age_span"
     ],
-    "auc": 0.7031475206954579,
-    "ap": 0.30771769630866336,
-    "precision_top10": 0.3723196881091618
+    "auc": 0.7031352156279523,
+    "ap": 0.30517733310957684,
+    "precision_top10": 0.3664717348927875
   },
-  "exposure_margin": 0.07128301811625459,
+  "exposure_margin": 0.06981800125321347,
   "no_overlap_variant": {
     "n_features": 43,
     "n_dropped": 14,
@@ -33,9 +33,9 @@
       "pct_tl_open_L6M",
       "pct_tl_closed_L6M"
     ],
-    "auc": 0.734021003050637,
-    "ap": 0.35108524883919995,
-    "precision_top10": 0.4171539961013645
+    "auc": 0.7365197815517397,
+    "ap": 0.35143926298728795,
+    "precision_top10": 0.4161793372319688
   },
   "strata": [
     {
@@ -43,35 +43,35 @@
       "accounts": 5211,
       "stressed": 554,
       "stress_rate": 0.10631356745346382,
-      "auc": 0.7675266998400762,
-      "precision_top10": 0.31861804222648754
+      "auc": 0.7634355796832376,
+      "precision_top10": 0.33205374280230326
     },
     {
       "band": "3-5",
       "accounts": 2542,
       "stressed": 515,
       "stress_rate": 0.2025963808025177,
-      "auc": 0.7415823278938217,
-      "precision_top10": 0.4921259842519685
+      "auc": 0.7434469611698383,
+      "precision_top10": 0.5078740157480315
     },
     {
       "band": "6-10",
       "accounts": 1372,
       "stressed": 326,
       "stress_rate": 0.23760932944606414,
-      "auc": 0.7449383570481766,
-      "precision_top10": 0.5401459854014599
+      "auc": 0.7414368496991167,
+      "precision_top10": 0.46715328467153283
     },
     {
       "band": "11+",
       "accounts": 1143,
       "stressed": 326,
       "stress_rate": 0.2852143482064742,
-      "auc": 0.7355017233481764,
-      "precision_top10": 0.6228070175438597
+      "auc": 0.7331400980693995,
+      "precision_top10": 0.5789473684210527
     }
   ],
-  "mean_within_stratum_auc": 0.7473872770325627,
+  "mean_within_stratum_auc": 0.745364872155398,
   "n_rows": 51336,
   "n_features": 57,
   "stress_rate": 0.16758220352189496,
@@ -111,131 +111,131 @@
     "folds": [
       {
         "fold": 1,
-        "auc": 0.7623572018882171,
-        "ap": 0.3818820622713054,
-        "precision_top5": 0.5146341463414634,
-        "precision_top10": 0.45066991473812423,
-        "recall_top10": 0.2688953488372093
+        "auc": 0.7602941964194617,
+        "ap": 0.3802669371818694,
+        "precision_top5": 0.4975609756097561,
+        "precision_top10": 0.45676004872107184,
+        "recall_top10": 0.27252906976744184
       },
       {
         "fold": 2,
-        "auc": 0.7718261384586771,
-        "ap": 0.4199486896000608,
-        "precision_top5": 0.5658536585365853,
-        "precision_top10": 0.4823386114494519,
-        "recall_top10": 0.2875816993464052
+        "auc": 0.7694528967877271,
+        "ap": 0.4119389723480936,
+        "precision_top5": 0.5609756097560976,
+        "precision_top10": 0.48599269183922045,
+        "recall_top10": 0.289760348583878
       },
       {
         "fold": 3,
-        "auc": 0.7684778633580855,
-        "ap": 0.3948662490508262,
-        "precision_top5": 0.526829268292683,
-        "precision_top10": 0.46528623629719856,
-        "recall_top10": 0.2774146695715323
+        "auc": 0.7701043353218513,
+        "ap": 0.3973023059936238,
+        "precision_top5": 0.5292682926829269,
+        "precision_top10": 0.464068209500609,
+        "recall_top10": 0.2766884531590414
       },
       {
         "fold": 4,
-        "auc": 0.7612771309325796,
-        "ap": 0.3875533519967994,
-        "precision_top5": 0.5390243902439025,
-        "precision_top10": 0.45554202192448234,
-        "recall_top10": 0.27180232558139533
+        "auc": 0.7608555619049564,
+        "ap": 0.38752997649262055,
+        "precision_top5": 0.5365853658536586,
+        "precision_top10": 0.46041412911084045,
+        "recall_top10": 0.2747093023255814
       },
       {
         "fold": 5,
-        "auc": 0.7634850003911685,
-        "ap": 0.38758110514545074,
-        "precision_top5": 0.4878048780487805,
-        "precision_top10": 0.4445797807551766,
-        "recall_top10": 0.26526162790697677
+        "auc": 0.7650000871625322,
+        "ap": 0.38804148773056085,
+        "precision_top5": 0.5097560975609756,
+        "precision_top10": 0.4518879415347138,
+        "recall_top10": 0.2696220930232558
       }
     ],
     "summary": {
-      "auc_mean": 0.7654846670057456,
-      "auc_std": 0.004490449560729157,
-      "ap_mean": 0.3943662916128885,
-      "ap_std": 0.01502514499162528,
+      "auc_mean": 0.7651414155193057,
+      "auc_std": 0.004612577685101883,
+      "ap_mean": 0.39301593594935363,
+      "ap_std": 0.012184335543230703,
       "precision_top5_mean": 0.526829268292683,
-      "precision_top5_std": 0.02891041363690169,
-      "precision_top10_mean": 0.4596833130328868,
-      "precision_top10_std": 0.014757740541642838,
-      "recall_top10_mean": 0.2741911342487038,
-      "recall_top10_std": 0.00870612208583494
+      "precision_top5_std": 0.02457248985318281,
+      "precision_top10_mean": 0.4638246041412911,
+      "precision_top10_std": 0.013186230063556003,
+      "recall_top10_mean": 0.2766618533718397,
+      "recall_top10_std": 0.007778525985734507
     }
   },
   "test": {
-    "auc": 0.7744305388117125,
-    "ap": 0.4057589570891058,
+    "auc": 0.7729532168811658,
+    "ap": 0.4033526196679144,
     "base_rate": 0.16760810284378652,
-    "precision_top5": 0.557504873294347,
-    "precision_top10": 0.4746588693957115,
-    "precision_top20": 0.40379931807111547,
-    "recall_top10": 0.28297501452643814,
-    "recall_top20": 0.48169668797210924
+    "precision_top5": 0.5282651072124757,
+    "precision_top10": 0.4727095516569201,
+    "precision_top20": 0.39746712128592304,
+    "recall_top10": 0.28181289947704824,
+    "recall_top20": 0.47414294015107494
   },
   "deciles": [
     {
       "decile": 1,
       "accounts": 1027,
-      "stressed": 487,
-      "stress_rate": 0.4741966893865628,
-      "lift": 2.829199074155274
+      "stressed": 485,
+      "stress_rate": 0.47224926971762415,
+      "lift": 2.81758018678708
     },
     {
       "decile": 2,
       "accounts": 1027,
-      "stressed": 343,
-      "stress_rate": 0.3339824732229795,
-      "lift": 1.9926391836452957
+      "stressed": 331,
+      "stress_rate": 0.3222979552093476,
+      "lift": 1.922925859436131
     },
     {
       "decile": 3,
       "accounts": 1027,
-      "stressed": 239,
-      "stress_rate": 0.23271665043816941,
-      "lift": 1.3884570404992003
+      "stressed": 254,
+      "stress_rate": 0.24732229795520935,
+      "lift": 1.4755986957606564
     },
     {
       "decile": 4,
       "accounts": 1026,
-      "stressed": 192,
-      "stress_rate": 0.1871345029239766,
-      "lift": 1.1165003347027262
+      "stressed": 186,
+      "stress_rate": 0.18128654970760233,
+      "lift": 1.081609699243266
     },
     {
       "decile": 5,
       "accounts": 1027,
-      "stressed": 164,
-      "stress_rate": 0.1596884128529698,
-      "lift": 0.9527487641919198
+      "stressed": 159,
+      "stress_rate": 0.15481986368062317,
+      "lift": 0.9237015457714345
     },
     {
       "decile": 6,
       "accounts": 1027,
-      "stressed": 109,
-      "stress_rate": 0.10613437195715676,
-      "lift": 0.6332293615665808
+      "stressed": 118,
+      "stress_rate": 0.11489776046738072,
+      "lift": 0.6855143547234546
     },
     {
       "decile": 7,
       "accounts": 1026,
-      "stressed": 100,
-      "stress_rate": 0.09746588693957114,
-      "lift": 0.5815105909910032
+      "stressed": 87,
+      "stress_rate": 0.0847953216374269,
+      "lift": 0.5059142141621727
     },
     {
       "decile": 8,
       "accounts": 1027,
-      "stressed": 48,
-      "stress_rate": 0.04673807205452775,
-      "lift": 0.27885329683665944
+      "stressed": 64,
+      "stress_rate": 0.062317429406037,
+      "lift": 0.37180439578221264
     },
     {
       "decile": 9,
       "accounts": 1027,
-      "stressed": 32,
-      "stress_rate": 0.0311587147030185,
-      "lift": 0.18590219789110632
+      "stressed": 30,
+      "stress_rate": 0.029211295034079845,
+      "lift": 0.17428331052291218
     },
     {
       "decile": 10,
@@ -246,63 +246,63 @@
     }
   ],
   "feature_importance": {
-    "Tot_Active_TL": 0.09199199825525284,
-    "closure_rate": 0.04738299921154976,
-    "pct_tl_open_L6M": 0.04201199859380722,
-    "Total_TL": 0.039691999554634094,
-    "GL_Flag": 0.039028000086545944,
-    "CC_enq_missing": 0.03892400115728378,
-    "open_close_imbalance": 0.024167999625205994,
-    "tot_enq": 0.023319000378251076,
-    "last_prod_enq2_PL": 0.023003000766038895,
-    "recent_loan_hunger": 0.0223619993776083,
-    "enquiry_freshness": 0.020669000223279,
-    "newest_tl_age": 0.020100999623537064,
-    "enquiry_acceleration": 0.01936200074851513,
-    "PL_utilization_missing": 0.01853499934077263,
-    "first_prod_enq2_AL": 0.018346000462770462,
-    "max_unsec_exposure_inPct_missing": 0.01804099977016449,
-    "HL_Flag": 0.017872000113129616,
-    "pct_tl_closed_L6M": 0.01632699929177761,
-    "CC_Flag": 0.01623000018298626,
-    "Unsecured_TL": 0.01593399979174137,
-    "balance_pressure": 0.014853999949991703,
-    "Secured_TL": 0.014561999589204788,
-    "enquiry_recency_share": 0.014506000094115734,
-    "max_unsec_exposure_inPct": 0.014120999723672867,
-    "portfolio_age_span": 0.01397200021892786,
-    "enquiry_rejection_proxy": 0.013953999616205692,
-    "unsecured_loan_ratio": 0.013783000409603119,
-    "last_prod_enq2_ConsumerLoan": 0.012978999875485897,
-    "last_prod_enq2_others": 0.012628999538719654,
-    "CC_utilization_missing": 0.01206399966031313,
-    "enq_L3m": 0.012052999809384346,
-    "Tot_Closed_TL": 0.012001999653875828,
-    "exposure_to_income": 0.011921999976038933,
-    "is_male": 0.011888000182807446,
-    "first_prod_enq2_ConsumerLoan": 0.011636000126600266,
-    "last_prod_enq2_HL": 0.011408999562263489,
-    "PL_Flag": 0.011301999911665916,
-    "credit_hunger_ratio": 0.011261999607086182,
-    "last_prod_enq2_CC": 0.011180000379681587,
-    "NETMONTHLYINCOME": 0.011036000214517117,
-    "enq_L6m": 0.01102800015360117,
-    "utilisation_pressure": 0.011006000451743603,
-    "unsecured_product_share": 0.010928000323474407,
-    "PL_utilization": 0.010645000264048576,
-    "AGE": 0.010546999983489513,
-    "last_prod_enq2_AL": 0.01044199988245964,
-    "is_married": 0.010305999778211117,
-    "enq_L12m": 0.010266999714076519,
-    "first_prod_enq2_PL": 0.010046999901533127,
-    "log_income": 0.010040000081062317,
-    "Time_With_Curr_Empr": 0.009975999593734741,
-    "income_stability": 0.009960999712347984,
-    "education_level": 0.009863000363111496,
-    "first_prod_enq2_CC": 0.009850000031292439,
-    "first_prod_enq2_HL": 0.00982499960809946,
-    "CC_utilization": 0.009661000221967697,
-    "first_prod_enq2_others": 0.009190999902784824
+    "Tot_Active_TL": 0.0884379968047142,
+    "Total_TL": 0.049532998353242874,
+    "closure_rate": 0.04641899839043617,
+    "pct_tl_open_L6M": 0.04604100063443184,
+    "GL_Flag": 0.042344000190496445,
+    "recent_loan_hunger": 0.02687700092792511,
+    "tot_enq": 0.026812000200152397,
+    "last_prod_enq2_PL": 0.025171000510454178,
+    "open_close_imbalance": 0.021995000541210175,
+    "enquiry_freshness": 0.021862000226974487,
+    "newest_tl_age": 0.020927999168634415,
+    "HL_Flag": 0.01994900032877922,
+    "first_prod_enq2_AL": 0.018511999398469925,
+    "CC_Flag": 0.017185000702738762,
+    "enquiry_acceleration": 0.017007999122142792,
+    "PL_utilization_missing": 0.016473999246954918,
+    "pct_tl_closed_L6M": 0.016276000067591667,
+    "balance_pressure": 0.015683000907301903,
+    "Tot_Closed_TL": 0.01488799974322319,
+    "max_unsec_exposure_inPct": 0.014777000062167645,
+    "unsecured_loan_ratio": 0.01462399959564209,
+    "portfolio_age_span": 0.014457999728620052,
+    "CC_enq_missing": 0.014360000379383564,
+    "Secured_TL": 0.01435100007802248,
+    "last_prod_enq2_ConsumerLoan": 0.014162000268697739,
+    "enquiry_recency_share": 0.013946999795734882,
+    "enquiry_rejection_proxy": 0.013849999755620956,
+    "CC_utilization_missing": 0.01374099962413311,
+    "PL_Flag": 0.013000999577343464,
+    "enq_L3m": 0.012883000075817108,
+    "exposure_to_income": 0.01279900036752224,
+    "credit_hunger_ratio": 0.012133000418543816,
+    "first_prod_enq2_ConsumerLoan": 0.01207400020211935,
+    "utilisation_pressure": 0.012070000171661377,
+    "Unsecured_TL": 0.011927000246942043,
+    "PL_utilization": 0.01167600043118,
+    "unsecured_product_share": 0.011446000076830387,
+    "first_prod_enq2_others": 0.011184999719262123,
+    "max_unsec_exposure_inPct_missing": 0.011177999898791313,
+    "first_prod_enq2_HL": 0.011122999712824821,
+    "last_prod_enq2_AL": 0.010950000025331974,
+    "AGE": 0.010854999534785748,
+    "is_male": 0.010812000371515751,
+    "enq_L12m": 0.010780000127851963,
+    "is_married": 0.010591000318527222,
+    "last_prod_enq2_CC": 0.010460999794304371,
+    "CC_utilization": 0.010459000244736671,
+    "log_income": 0.010431000031530857,
+    "enq_L6m": 0.010323000140488148,
+    "NETMONTHLYINCOME": 0.010320000350475311,
+    "education_level": 0.010317999869585037,
+    "first_prod_enq2_PL": 0.010289999656379223,
+    "income_stability": 0.01023900043219328,
+    "last_prod_enq2_HL": 0.010204999707639217,
+    "Time_With_Curr_Empr": 0.010166999883949757,
+    "last_prod_enq2_others": 0.009685000404715538,
+    "first_prod_enq2_CC": 0.008957999758422375
   },
   "gold_loan_cohort": [
     {

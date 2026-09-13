@@ -1,0 +1,13 @@
+.git
+.gitignore
+.venv
+venv
+env
+__pycache__
+*.pyc
+.pytest_cache
+.ruff_cache
+.DS_Store
+notebooks/
+reports/
+# Do not ignore models/ as they are needed for the app to run
